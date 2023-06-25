@@ -17,10 +17,10 @@ body {
 		.example {
 			border-top: 1px solid $separator-line-color;
 			padding-top: 1rem;
+			padding-bottom: 1rem;
 
 			&:last-of-type {
 				border-bottom: 1px solid $separator-line-color;
-				padding-bottom: 1rem;
 			}
 		}
 
