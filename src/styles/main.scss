@@ -1,3 +1,5 @@
+$separator-line-color: #444;
+
 body {
 	background-color: #333;
 	color: #ccc;
@@ -13,11 +15,11 @@ body {
 		flex-direction: column;
 
 		.example {
-			border-top: 1px solid #777;
+			border-top: 1px solid $separator-line-color;
 			padding-top: 1rem;
 
 			&:last-of-type {
-				border-bottom: 1px solid #777;
+				border-bottom: 1px solid $separator-line-color;
 				padding-bottom: 1rem;
 			}
 		}
