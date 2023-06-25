@@ -7,4 +7,20 @@ body {
 	h1 {
 		color: rgb(204, 168, 101);
 	}
+
+	.examples {
+		display: flex;
+		flex-direction: column;
+
+		.example {
+			border-top: 1px solid #777;
+			padding-top: 1rem;
+
+			&:last-of-type {
+				border-bottom: 1px solid #777;
+				padding-bottom: 1rem;
+			}
+		}
+
+	}
 }
