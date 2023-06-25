@@ -15,13 +15,16 @@ body {
 		flex-direction: column;
 
 		.example {
-			border-top: 1px solid $separator-line-color;
-			padding-top: 1rem;
-			padding-bottom: 1rem;
+			border: 1px solid $separator-line-color;
+			padding: 2rem;
+			margin-bottom: 2rem;
+			box-shadow: 0 0 20px #444;
+			border-radius: 1rem;
 
-			&:last-of-type {
-				border-bottom: 1px solid $separator-line-color;
+			legend {
+				color: #777;
 			}
+
 		}
 
 	}

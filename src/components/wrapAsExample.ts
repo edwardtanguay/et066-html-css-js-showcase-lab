@@ -1,7 +1,8 @@
 export const wrapAsExample = (idCode: string, html: string) => {
 	return `
-	<div class="example ${idCode}">
+	<fieldset class="example ${idCode}">
+		<legend>${idCode}</legend>
 		${html}	
-	</div>
+	</fieldset>
 	`;
 };
