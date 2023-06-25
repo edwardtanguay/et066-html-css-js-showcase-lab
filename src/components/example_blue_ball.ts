@@ -1,4 +1,4 @@
-import './style.scss';
+import './example_blue_ball.scss';
 
 export const example_blue_ball = () => {
 	return `
