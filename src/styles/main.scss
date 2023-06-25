@@ -40,6 +40,26 @@ body {
 				}
 			}
 
+			.links {
+				margin-top: -.5rem;
+				margin-bottom: 1rem;
+
+				a {
+					text-decoration: none;
+					color: rgb(194, 194, 116);
+
+					&:before {
+						content: '[';
+						color: $main-text-color;
+					}
+
+					&:after {
+						content: ']';
+						color: $main-text-color;
+					}
+				}
+			}
+
 		}
 
 	}
