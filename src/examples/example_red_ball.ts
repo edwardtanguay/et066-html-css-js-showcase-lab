@@ -1,5 +1,5 @@
 import './example_red_ball.scss';
-import { wrapAsExample } from './wrapAsExample';
+import { wrapAsExample } from '../components/wrapAsExample';
 
 export const example_red_ball = () => {
 	let html = '';

@@ -1,5 +1,5 @@
-import { example_blue_ball } from './components/example_blue_ball';
-import { example_red_ball } from './components/example_red_ball';
+import { example_blue_ball } from './examples/example_blue_ball';
+import { example_red_ball } from './examples/example_red_ball';
 import './styles/main.scss';
 
 

@@ -1,5 +1,5 @@
 import './example_blue_ball.scss';
-import { wrapAsExample } from './wrapAsExample';
+import { wrapAsExample } from '../components/wrapAsExample';
 
 const description =  'This shows how to use <code>border-radius: 50%</code> to create a round shape.';
 
