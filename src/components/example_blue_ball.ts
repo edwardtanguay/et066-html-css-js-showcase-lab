@@ -1,7 +1,7 @@
 import './example_blue_ball.scss';
 import { wrapAsExample } from './wrapAsExample';
 
-const description = 'This shows how to use <code>border-radius: 50%</code> to create a round shape.';
+const description =  'This shows how to use <code>border-radius: 50%</code> to create a round shape.';
 
 export const example_blue_ball = () => {
 	let html = '';
